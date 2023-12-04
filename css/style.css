@@ -1,23 +1,60 @@
 body {
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
+    margin: 0; /* Remove default body margin */
+    min-height: 100vh; /* Ensure full height of the viewport */
+    background-color: lightblue;
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Stack children vertically */
+
 }
+
 
 header {
     text-align: center;
     font-size: 24px;
     background-color: lightgray;
     width: 100%;
-    padding: 10px;
 }
 
 nav {
     display: flex; /* Display the nav items in a row */
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
     width: 100%;
-    background-color: lightblue;
+    background-color: lightgrey;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    justify-content: space-between;
+}
+
+main {
+    display:grid;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50vh; /* Use margin-top with a percentage of viewport height */
+    transform: translateY(-50%);
+}
+
+img{
+    transition: all  .7s ease-in-out;
+    max-width: 100%;
+    height: auto;
+}
+img:hover {
+    transform: rotate(360deg);
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the container */
+    background-color: lightgray;
+    width: 100%;
 }
