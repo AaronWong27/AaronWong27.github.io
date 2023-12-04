@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    background-color: lightgray;
+    width: 100%;
+    padding: 10px;
+}
+
+nav {
+    display: flex; /* Display the nav items in a row */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    background-color: lightblue;
+}
