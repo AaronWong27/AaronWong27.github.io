@@ -38,12 +38,15 @@ li {
 
 main {
     display:grid;
+    
+}
+
+#introduction{
     text-align: center;
     font-size: 20px;
     margin-top: 50vh; /* Use margin-top with a percentage of viewport height */
     transform: translateY(-50%);
 }
-
 img{
     transition: all  .7s ease-in-out;
     max-width: 100%;
