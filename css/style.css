@@ -60,16 +60,6 @@ main {
 #introduction img:hover{
     transform: rotate(360deg);
 }
-/*
-img {
-    transition: all 0.7s ease-in-out;
-    max-width: 100%;
-    height: auto;
-}
-
-img:hover{
-    transform: rotate(360deg);
-}*/
 
 footer {
     margin-top: auto; /* Push the footer to the bottom of the container */
@@ -78,16 +68,7 @@ footer {
 }
 
 
-/*
-.profile-picture img {
-    transition: all 0.7s ease-in-out;
-    max-width: 50%;
-    height: auto;
-}
-/*
-.profile-picture img:hover {
-    transform: rotate(360deg);
-}*/
+
 
 .nav-link.active img{
     max-width: 5%;
