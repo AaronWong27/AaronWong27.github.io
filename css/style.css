@@ -34,7 +34,9 @@ ul {
 
 li {
     justify-content: space-between;
+    margin: 0 100px;
 }
+
 
 main {
     display:grid;
@@ -47,17 +49,47 @@ main {
     margin-top: 50vh; /* Use margin-top with a percentage of viewport height */
     transform: translateY(-50%);
 }
-img{
-    transition: all  .7s ease-in-out;
+
+#introduction img{
+    transition: all 0.7s ease-in-out;
     max-width: 100%;
     height: auto;
 }
-img:hover {
+
+
+#introduction img:hover{
     transform: rotate(360deg);
 }
+/*
+img {
+    transition: all 0.7s ease-in-out;
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover{
+    transform: rotate(360deg);
+}*/
 
 footer {
     margin-top: auto; /* Push the footer to the bottom of the container */
     background-color: lightgray;
     width: 100%;
+}
+
+
+/*
+.profile-picture img {
+    transition: all 0.7s ease-in-out;
+    max-width: 50%;
+    height: auto;
+}
+/*
+.profile-picture img:hover {
+    transform: rotate(360deg);
+}*/
+
+.nav-link.active img{
+    max-width: 5%;
+    height: auto;
 }
