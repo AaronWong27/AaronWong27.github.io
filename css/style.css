@@ -49,8 +49,9 @@ main {
     top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    width: 760px;
+    /* width: 760px; */
     
+    width: 50%;
     text-align: center;
     color: #FFFFFF;
 
@@ -82,6 +83,41 @@ main {
     text-align: center;
 }
 
+
+.tech-list-title{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.tech-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-border{
+    width: 200px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.tech-list img{
+    width: 24px;
+    height: 24px;
+}
 
 footer {
     margin-top: auto; /* Push the footer to the bottom of the container */
