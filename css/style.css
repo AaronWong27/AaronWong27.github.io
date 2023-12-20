@@ -44,7 +44,7 @@ main {
     
 }
 
-#introduction{
+#information{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -63,16 +63,25 @@ main {
     z-index: 5;
 }
 
-#introduction img{
+#information img{
     transition: all 0.7s ease-in-out;
     max-width: 100%;
     height: auto;
 }
 
 
-#introduction img:hover{
+#information img:hover{
     transform: rotate(360deg);
 }
+
+
+#about-me-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    text-align: center;
+}
+
 
 footer {
     margin-top: auto; /* Push the footer to the bottom of the container */
