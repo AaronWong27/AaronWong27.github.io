@@ -101,6 +101,14 @@ main {
     text-align: center;
 }
 
+
+.link-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .box-border{
     width: 200px; /* Set a fixed width */
     height: 50px; /* Set a fixed height */
@@ -121,7 +129,12 @@ main {
 } */
 
 
-.box-border a{
+.box-border:hover{
+    background-color: mediumpurple
+}
+
+
+.box-border a:link, a:visited{
     /* display:inline; */
     /* align-items: center; */
     text-decoration: none;
