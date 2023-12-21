@@ -62,16 +62,17 @@ main {
     border-radius: 20px;
     background-color: rgba(20, 20, 20, 0.8);
     z-index: 5;
+
 }
 
-#information img{
+#profile-picture{
     transition: all 0.7s ease-in-out;
     max-width: 100%;
     height: auto;
 }
 
 
-#information img:hover{
+#profile-picture:hover{
     transform: rotate(360deg);
 }
 
@@ -105,13 +106,33 @@ main {
     height: 50px; /* Set a fixed height */
     border: 2px solid #007bff;
     border-radius: 10px;
-    display:flex;
+    display:flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
     padding: 10px;
     margin: 5px;
     box-sizing: border-box;
     font-size: 15px;
+}
+
+/* .box-border a p{
+    text-decoration: none;
+} */
+
+
+.box-border a{
+    /* display:inline; */
+    /* align-items: center; */
+    text-decoration: none;
+    
+}
+
+.box-border a p{
+    /* display:inline; */
+    /* align-items: center; */
+    text-decoration: none;
+    
 }
 
 .tech-list img{
@@ -125,6 +146,11 @@ footer {
     width: 100%;
 }
 
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
 
 
 
