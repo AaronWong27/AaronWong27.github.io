@@ -67,7 +67,7 @@ main {
 
 #profile-picture{
     transition: all 0.7s ease-in-out;
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
 }
 
